@@ -1,0 +1,20 @@
+{
+    "verbose": true,
+    "cloud-provider": "aws",
+    "port": 5000,
+    "deployment-name": "dev-0",
+    "deployment-region": "us-east-1",
+    "user-storage": "key-value",
+    "system-storage": "key-value",
+    "heartbeat-frequency": 12,
+    "worker-queue": "sqs",
+    "distributor-queue": "sqs",
+    "client-channel": "sqs",
+    "configuration": {
+      "benchmarking": "True",
+      "benchmarking-frequency": 1
+    },
+    "aws": {
+      "data-bucket": "faaskeeper-dev-0-data-ee96ad30"
+    }
+  }
